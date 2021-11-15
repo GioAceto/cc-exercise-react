@@ -8,11 +8,11 @@ const NavBar = () => {
       <nav>
         <img className='logo' src={logo} alt="Colby logo"></img>
         <ul className='nav-links-container'>
-          <li><a href='#'>Home</a></li>
-          <li><a href='#'>Schedule</a></li>
-          <li><a href='#'>Registration</a></li>
-          <li><a href='#'>Share</a></li>
-          <li><a href='#'>Galleries</a></li>
+          <li><a className='nav-link' href='#'>Home</a></li>
+          <li><a className='nav-link' href='#'>Schedule</a></li>
+          <li><a className='nav-link' href='#'>Registration</a></li>
+          <li><a className='nav-link' href='#'>Share</a></li>
+          <li><a className='nav-link' href='#'>Galleries</a></li>
           <li>
             <a href='#'><img className='home-icon-link' src={home} alt="Home icon"></img></a>
           </li>
