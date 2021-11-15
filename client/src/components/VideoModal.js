@@ -10,18 +10,16 @@ const VideoModal = (props) => {
       aria-labelledby="contained-modal-title-vcenter"
       centered
     >
-      <Modal.Header closeButton>
-        <Modal.Title id="contained-modal-title-vcenter">
-          Modal heading
-        </Modal.Title>
+      <Modal.Header>
       </Modal.Header>
       <Modal.Body>
-        <h4>Centered Modal</h4>
-        <ReactPlayer
-          url='https://player.vimeo.com/video/554279132'
-          controls='true'
-          playing='true'
-        />
+        <div className='player-wrapper'>
+          <ReactPlayer
+            url='https://player.vimeo.com/video/554279132'
+            controls='true'
+            playing='true'
+          />
+        </div>
       </Modal.Body>
       <Modal.Footer>
         <Button onClick={props.onHide}>Close</Button>
