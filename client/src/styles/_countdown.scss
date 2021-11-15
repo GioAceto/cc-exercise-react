@@ -1,0 +1,17 @@
+.countdown-container {
+  margin: -3rem auto 1rem auto;
+  padding: 0 2rem;
+  max-width: 40rem;
+  height: 6rem;
+  position: relative;
+  display: flex;
+  align-items: center;
+  border: 1px solid $drkGray;
+  background-color: $white;
+
+  h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2.2rem;
+    color: $drkGray;
+  }
+}
