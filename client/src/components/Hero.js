@@ -1,4 +1,5 @@
 import React from 'react'
+import playBtn from '../assets/play_btn.svg';
 
 const Hero = () => {
   return (
@@ -13,6 +14,12 @@ const Hero = () => {
             sed do eiusmod tempor incididunt ut labore et dolore
             magna aliqua.
           </p>
+          <div className='hero-btn-container'>
+            <button className='register-btn'>Register</button>
+            <button>
+              <img src={playBtn} alt='play button'></img>
+            </button>
+          </div>
         </section>
       </div>
 

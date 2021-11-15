@@ -38,6 +38,10 @@
     height: 400px;
     object-fit: cover;
     border: 1px solid $drkGray;
+
+      &:hover {
+        cursor: pointer;
+      }
     }
   }
 }
