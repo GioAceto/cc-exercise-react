@@ -1,11 +1,23 @@
-import React from 'react'
+import React, { useState } from 'react';
 import { Link } from "react-router-dom";
 import logo from '../assets/colby_logo.png'
 import home from '../assets/home.svg'
 
 const NavBar = () => {
+  const [navBar, setNavBar] = useState(false);
+
+  const changeBackground = () => {
+    if (window.scrollY >= 120) {
+      setNavBar(true)
+    } else {
+      setNavBar(false)
+    }
+  };
+
+  window.addEventListener('scroll', changeBackground)
+
   return (
-    <div className='nav-container'>
+    <div className={navBar ? 'nav-container active' : 'nav-container'}>
       <nav>
         <img className='logo' src={logo} alt="Colby logo"></img>
         <ul className='nav-links-container'>

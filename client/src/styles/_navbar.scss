@@ -4,6 +4,12 @@
   top: 0;
   left: 0;
   z-index: 2;
+
+
+  .nav-container {
+  background-color: $black !important;
+  transition: background-color 200ms linear;
+}
   // background-color: aliceblue;
 
   nav {
@@ -77,4 +83,8 @@
       }
     }
   }
+}
+
+.nav-container.active {
+  background-color: $colbyBlue;
 }
