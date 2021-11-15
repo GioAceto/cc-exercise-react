@@ -1,16 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import '../../styles/styles.scss';
-import NavBar from '../NavBar';
-import Hero from '../Hero';
 
-const Home = () => {
+const Schedule = () => {
   return (
     <div>
-      <NavBar />
-      <Hero />
+      <h1>Schedule Page</h1>
     </div>
   )
 };
 
-export default Home
+export default Schedule

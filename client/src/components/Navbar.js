@@ -10,12 +10,12 @@ const NavBar = () => {
         <img className='logo' src={logo} alt="Colby logo"></img>
         <ul className='nav-links-container'>
           <li><Link to='/' className='nav-link' href='#'>Home</Link></li>
-          <li><a className='nav-link' href='#'>Schedule</a></li>
-          <li><a className='nav-link' href='#'>Registration</a></li>
-          <li><a className='nav-link' href='#'>Share</a></li>
-          <li><a className='nav-link' href='#'>Galleries</a></li>
+          <li><Link to='/schedule' className='nav-link' href='#'>Schedule</Link></li>
+          <li><Link to='/registration' className='nav-link' href='#'>Registration</Link></li>
+          <li><Link to='/share' className='nav-link' href='#'>Share</Link></li>
+          <li><Link to='/galleries' className='nav-link' href='#'>Galleries</Link></li>
           <li>
-            <a href='#'><img className='home-icon-link' src={home} alt="Home icon"></img></a>
+            <Link to='/'><img className='home-icon-link' src={home} alt="Home icon"></img></Link>
           </li>
         </ul>
       </nav>
