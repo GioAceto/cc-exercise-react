@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from "react-router-dom";
 import logo from '../assets/colby_logo.png'
 import home from '../assets/home.svg'
 
@@ -8,7 +9,7 @@ const NavBar = () => {
       <nav>
         <img className='logo' src={logo} alt="Colby logo"></img>
         <ul className='nav-links-container'>
-          <li><a className='nav-link' href='#'>Home</a></li>
+          <li><Link to='/' className='nav-link' href='#'>Home</Link></li>
           <li><a className='nav-link' href='#'>Schedule</a></li>
           <li><a className='nav-link' href='#'>Registration</a></li>
           <li><a className='nav-link' href='#'>Share</a></li>
