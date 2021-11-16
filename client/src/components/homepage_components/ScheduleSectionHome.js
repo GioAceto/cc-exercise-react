@@ -1,6 +1,6 @@
 const ScheduleSectionHome = () => {
   return (
-    <section>
+    <section className='schedule-section'>
       <header>
         <h2>Schedule</h2>
       </header>
