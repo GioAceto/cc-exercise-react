@@ -16,8 +16,8 @@ const VideoModal = (props) => {
         <div className='player-wrapper'>
           <ReactPlayer
             url='https://player.vimeo.com/video/554279132'
-            controls='true'
-            playing='true'
+            controls={true}
+            playing={true}
           />
         </div>
       </Modal.Body>
