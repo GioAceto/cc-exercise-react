@@ -8,19 +8,19 @@ const Countdown = () => {
       </div>
       <div className='timer-container'>
         <div className='timer-box'>
-          <p>60</p>
+          <p>320</p>
           <p>days</p>
         </div>
         <div className='timer-box'>
-          <p>60</p>
+          <p>10</p>
           <p>hours</p>
         </div>
         <div className='timer-box'>
-          <p>60</p>
+          <p>20</p>
           <p>minutes</p>
         </div>
         <div className='timer-box'>
-          <p>60</p>
+          <p>18</p>
           <p>seconds</p>
         </div>
       </div>
