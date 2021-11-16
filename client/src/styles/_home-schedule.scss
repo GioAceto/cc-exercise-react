@@ -1,5 +1,4 @@
 .schedule-section {
-  height: 50rem;
   background-color: $ltGray;
 
   header {
@@ -7,6 +6,7 @@
     text-align: center;
 
     h2 {
+      margin-bottom: 2rem;
       color: $drkGray;
     }
   }

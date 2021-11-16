@@ -1,0 +1,69 @@
+.event-container {
+  margin: 0 auto;
+  width: 45rem;
+  height: 12rem;
+  display: flex;
+  border: 1px solid $drkGray;
+
+  .event-image {
+    width: 30%;
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+
+
+  .event-description {
+    padding: 0 2rem 0 2rem;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    background-color: $white;
+
+    header {
+      margin-bottom: 0.5rem;
+      height: 3rem;
+      text-align: left;
+
+      h3 {
+        font-weight: bold;
+        color: $drkGray;
+      }
+    }
+    p {
+      font-size: 1.1rem;
+      height: 3rem;
+      text-align: left;
+      }
+  }
+
+  .event-details {
+    padding: 1rem 0.5rem;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: $white;
+    border-left: 1px solid $drkGray;
+
+    div {
+      display: flex;
+      align-items: center;
+
+      .icon {
+        margin: -0.5rem 0.5rem 0 0;
+        width: 1.3rem;
+        height: auto;
+      }
+
+      h4 {
+        text-align: left;
+        font-size: 0.7rem;
+        color: $drkGray;
+      }
+    }
+  }
+}

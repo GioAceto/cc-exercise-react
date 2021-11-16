@@ -1,5 +1,5 @@
 import React from 'react'
-import millerMap from '../../assets/miller_map.png';
+import millerMap from '../../assets/images/miller_map.png';
 
 const FeatureSectionHome = () => {
   return (

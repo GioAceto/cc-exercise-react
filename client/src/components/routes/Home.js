@@ -1,5 +1,4 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 import '../../styles/styles.scss';
 import NavBar from '../homepage_components/NavBar';
 import Hero from '../homepage_components/Hero';
