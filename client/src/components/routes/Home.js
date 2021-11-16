@@ -4,6 +4,10 @@ import '../../styles/styles.scss';
 import NavBar from '../NavBar';
 import Hero from '../Hero';
 import millerMap from '../../assets/miller_map.png';
+import ScheduleSectionHome from '../ScheduleSectionHome';
+import ShareSectionHome from '../ShareSectionHome';
+import PhotosSectionHome from '../PhotosSectionHome';
+import Footer from '../Footer';
 
 const Home = () => {
   return (
@@ -33,6 +37,10 @@ const Home = () => {
           <img src={millerMap} alt='miller library map'></img>
         </main>
       </section>
+      <ScheduleSectionHome />
+      <ShareSectionHome />
+      <PhotosSectionHome />
+      <Footer />
     </div>
   )
 };
