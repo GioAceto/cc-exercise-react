@@ -1,9 +1,9 @@
 import React from 'react'
-import millerMap from '../assets/miller_map.png';
+import millerMap from '../../assets/miller_map.png';
 
 const FeatureSectionHome = () => {
   return (
-    <section className='content-section'>
+    <section className='feature-section'>
       <header>
         <h2>Let the Celebration Begin.</h2>
       </header>

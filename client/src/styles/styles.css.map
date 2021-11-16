@@ -6,7 +6,7 @@
         "_variables.scss",
         "_navbar.scss",
         "_hero.scss",
-        "_home-content.scss",
+        "_home-featured.scss",
         "_countdown.scss"
     ],
     "names": [],

@@ -1,13 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import '../../styles/styles.scss';
-import NavBar from '../NavBar';
-import Hero from '../Hero';
-import ScheduleSectionHome from '../ScheduleSectionHome';
-import ShareSectionHome from '../ShareSectionHome';
-import PhotosSectionHome from '../PhotosSectionHome';
-import Footer from '../Footer';
-import FeatureSectionHome from '../FeatureSectionHome';
+import NavBar from '../homepage_components/NavBar';
+import Hero from '../homepage_components/Hero';
+import ScheduleSectionHome from '../homepage_components/ScheduleSectionHome';
+import ShareSectionHome from '../homepage_components/ShareSectionHome';
+import PhotosSectionHome from '../homepage_components/PhotosSectionHome';
+import Footer from '../shared_components/Footer';
+import FeatureSectionHome from '../homepage_components/FeatureSectionHome';
 
 const Home = () => {
   return (

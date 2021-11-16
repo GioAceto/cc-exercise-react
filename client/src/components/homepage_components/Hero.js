@@ -1,8 +1,8 @@
 import React from 'react'
 import { Modal, Button } from 'react-bootstrap';
-import playBtn from '../assets/play_btn.svg';
-import VideoModal from '../components/VideoModal';
-import Countdown from '../components/Countdown';
+import playBtn from '../../assets/play_btn.svg';
+import VideoModal from '../../components/homepage_components/VideoModal';
+import Countdown from '../../components/homepage_components/Countdown';
 
 const Hero = () => {
   const [modalShow, setModalShow] = React.useState(false);

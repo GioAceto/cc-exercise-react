@@ -1,8 +1,10 @@
 const ScheduleSectionHome = () => {
   return (
-    <div>
-
-    </div>
+    <section>
+      <header>
+        <h2>Schedule</h2>
+      </header>
+    </section>
   )
 }
 

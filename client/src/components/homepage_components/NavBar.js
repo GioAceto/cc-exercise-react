@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from "react-router-dom";
-import logo from '../assets/colby_logo.png'
-import home from '../assets/home.svg'
+import logo from '../../assets/colby_logo.png';
+import home from '../../assets/home.svg';
 
 const NavBar = () => {
   const [navBar, setNavBar] = useState(false);
