@@ -13,6 +13,18 @@
     }
   }
 
+  a {
+    margin: -2.2rem -42.5rem 0.5rem 0;
+    padding: 0.1rem 0.4rem;
+    border: 1px solid $drkGray;
+    border-radius: 3px;
+    background-color: $white;
+
+    .events-calendar-icon {
+      width: 1.3rem;
+    }
+}
+
   .load-more-btn {
     width: 10rem;
     height: 3rem;
