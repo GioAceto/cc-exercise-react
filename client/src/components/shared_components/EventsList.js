@@ -25,7 +25,6 @@ const EventsList = () => {
               <div><img className='icon' src={clock} alt='calendar icon' /><h4>9am - 10am</h4></div>
               <div><img className='icon' src={building} alt='calendar icon' /><h4>{event.eventContact.name}</h4></div>
               <div><img className='icon' src={locationPin} alt='calendar icon' /><h4>{event.eventContact.address}</h4></div>
-
             </div>
           </div>
         )

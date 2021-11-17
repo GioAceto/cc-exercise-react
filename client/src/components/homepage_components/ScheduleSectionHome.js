@@ -6,8 +6,9 @@ const ScheduleSectionHome = () => {
     <section className='schedule-section'>
       <header>
         <h2>Schedule</h2>
-        <EventsList />
       </header>
+      <EventsList />
+      <button className='load-more-btn'>load more</button>
     </section>
   )
 }
