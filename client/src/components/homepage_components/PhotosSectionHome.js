@@ -1,8 +1,10 @@
 const PhotosSectionHome = () => {
   return (
-    <div>
-
-    </div>
+    <section className='photos-section'>
+      <header>
+        <h2>Photos</h2>
+      </header>
+    </section>
   )
 }
 

@@ -1,0 +1,15 @@
+.photos-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: $colbyBlue;
+
+  header {
+    padding: 2rem 0;
+    text-align: center;
+
+    h2 {
+      color: $white;
+    }
+  }
+}
