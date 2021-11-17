@@ -9,7 +9,9 @@ const ShareSectionHome = () => {
       <header>
         <h2>Share</h2>
       </header>
-      <ul className="juicer-feed" data-feed-id="colby-college-master-feed" data-per="8"></ul>
+      <div className='juicer-container'>
+        <ul className="juicer-feed" data-feed-id="colby-college-master-feed" data-per="8"></ul>
+      </div>
       {/* <button className='load-more-btn'>load more</button> */}
       <h3>@colbycollege</h3>
       <ul className='social-container'>

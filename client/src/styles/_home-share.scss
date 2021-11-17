@@ -13,17 +13,29 @@
     }
   }
 
-  .load-more-btn {
-    margin-bottom: 2rem;
-    width: 10rem;
-    height: 3rem;
-    text-transform: uppercase;
-    color: $drkGray;
-    background-color: $white;
-    border: 1px solid $drkGray;
-    font-size: 1.2rem;
-    border-radius: 4px;
+  .juicer-container {
+    margin: 0 auto;
+    width: 80%;
   }
+
+.juicer-button {
+  margin-bottom: 2rem;
+  width: 10rem;
+  height: 3rem;
+  text-transform: uppercase;
+  color: $drkGray;
+  background-color: $white;
+  border: 1px solid $drkGray;
+  font-size: 1.2rem;
+  font-family: libre-franklin, Sans-serif;
+  font-weight: normal;
+  border-radius: 4px;
+
+  &:hover {
+    background-color: $colbyBlue;
+    color: $white;
+  }
+}
 
   .social-container {
     padding: 0;
