@@ -24,4 +24,20 @@
     font-size: 1.2rem;
     border-radius: 4px;
   }
+
+  .social-container {
+    padding: 0;
+    height: 3rem;
+    width: 8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+
+    img {
+      width: 1.2rem;
+      height: auto;
+    }
+  }
 }
