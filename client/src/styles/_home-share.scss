@@ -1,8 +1,8 @@
-.schedule-section {
+.share-section {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: $ltGray;
+  background-color: $white;
 
   header {
     padding: 2rem 0;
@@ -12,18 +12,6 @@
       color: $drkGray;
     }
   }
-
-  a {
-    margin: -2.2rem -42.5rem 0.5rem 0;
-    padding: 0.1rem 0.4rem;
-    border: 1px solid $drkGray;
-    border-radius: 3px;
-    background-color: $white;
-
-    .events-calendar-icon {
-      width: 1.3rem;
-    }
-}
 
   .load-more-btn {
     margin-bottom: 2rem;
