@@ -430,6 +430,7 @@
 .event-container .event-description header h3 {
   font-weight: bold;
   color: #707070;
+  white-space: nowrap;
 }
 
 .event-container .event-description p {
