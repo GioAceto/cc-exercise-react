@@ -62,14 +62,24 @@
     align-items: center;
 
     .register-btn {
-      margin-right: 1rem;
-      width: 9rem;
+      padding: 0 2.5rem;
+      width: 8.5rem;
       height: 3rem;
+      text-decoration: none;
+      display: flex;
+      justify-content: center;
+      align-items: center;
       border-radius: 4px;
       border-style: none;
       font-size: 1rem;
       color: $white;
       background-color: $orange;
+
+      @include mobile {
+        margin-right: 0.5rem;
+        width: 8rem;
+        font-size: 0.9rem;
+      }
 
       &:hover {
         cursor: pointer;
@@ -78,7 +88,7 @@
       }
     }
 
-    button {
+    .play-btn {
       margin-left: 1rem;
       width: 4rem;
       display: flex;
@@ -88,6 +98,10 @@
       background: none;
       border: none;
       transition-duration: 0.3s;
+
+      @include mobile {
+        width: 3.5rem;
+      }
 
       img {
         width: 4rem;

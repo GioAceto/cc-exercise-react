@@ -2,6 +2,7 @@ import React from 'react'
 import playBtn from '../../assets/svg/play_btn.svg';
 import VideoModal from '../../components/homepage_components/VideoModal';
 import Countdown from '../../components/homepage_components/Countdown';
+import { Link } from "react-router-dom";
 
 const Hero = () => {
   const [modalShow, setModalShow] = React.useState(false);
@@ -20,8 +21,8 @@ const Hero = () => {
               magna aliqua.
             </p>
             <div className='hero-btn-container'>
-              <button className='register-btn'>Register</button>
-              <button variant="primary" onClick={() => setModalShow(true)}>
+              <Link to='/registration' className='register-btn'>Register</Link>
+              <button className='play-btn' variant="primary" onClick={() => setModalShow(true)}>
                 <img src={playBtn} alt='play button'></img>
               </button>
               <VideoModal

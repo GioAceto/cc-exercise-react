@@ -282,14 +282,32 @@
 }
 
 .hero-content .hero-btn-container .register-btn {
-  margin-right: 1rem;
-  width: 9rem;
+  padding: 0 2.5rem;
+  width: 8.5rem;
   height: 3rem;
+  text-decoration: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   border-radius: 4px;
   border-style: none;
   font-size: 1rem;
   color: #ffffff;
   background-color: #CC6C41;
+}
+
+@media screen and (max-width: 400px) {
+  .hero-content .hero-btn-container .register-btn {
+    margin-right: 0.5rem;
+    width: 8rem;
+    font-size: 0.9rem;
+  }
 }
 
 .hero-content .hero-btn-container .register-btn:hover {
@@ -299,7 +317,7 @@
           transform: scale(1.1);
 }
 
-.hero-content .hero-btn-container button {
+.hero-content .hero-btn-container .play-btn {
   margin-left: 1rem;
   width: 4rem;
   display: -webkit-box;
@@ -318,13 +336,19 @@
           transition-duration: 0.3s;
 }
 
-.hero-content .hero-btn-container button img {
+@media screen and (max-width: 400px) {
+  .hero-content .hero-btn-container .play-btn {
+    width: 3.5rem;
+  }
+}
+
+.hero-content .hero-btn-container .play-btn img {
   width: 4rem;
   -webkit-transition-duration: 0.3s;
           transition-duration: 0.3s;
 }
 
-.hero-content .hero-btn-container button img:hover {
+.hero-content .hero-btn-container .play-btn img:hover {
   cursor: pointer;
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
