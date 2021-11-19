@@ -4,12 +4,16 @@ footer {
   background-color: $ltBlack;
 
   div {
-    max-width: 100rem;
+    max-width: 100%;
     display: flex;
     justify-content: space-between;
     padding: 0.5rem calc((100vw - 1500px) / 2);
 
-    .logo {
+    @include tablet {
+      flex-direction: column;
+    }
+
+    .footer-logo {
       margin: 1rem 1.8rem 0 2rem;
       height: 4rem;
 
@@ -18,7 +22,7 @@ footer {
       }
     }
 
-    .nav-links-container {
+    .footer-links-container {
       margin-right: 3.2rem;
       padding: 0 1rem;
       display: flex;
@@ -32,7 +36,7 @@ footer {
         display: flex;
         align-items: center;
 
-        .nav-link {
+        .footer-link {
           font-size: 1.2rem;
           text-decoration: none;
           color: $white;

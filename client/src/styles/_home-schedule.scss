@@ -4,6 +4,10 @@
   align-items: center;
   background-color: $ltGray;
 
+  @include tablet {
+    display: none;
+  }
+
   header {
     padding: 2rem 0;
     text-align: center;
