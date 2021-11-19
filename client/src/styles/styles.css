@@ -1,6 +1,7 @@
 .logo {
   margin: 1rem 1.8rem 0 2rem;
-  height: 4rem;
+  height: 60px;
+  width: 118px;
 }
 
 .logo:hover {
