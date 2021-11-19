@@ -53,9 +53,6 @@ const NavBar = () => {
             <li className='nav-text'><Link to='/registration' className='nav-link' href='#'>Registration</Link></li>
             <li className='nav-text'><Link to='/share' className='nav-link' href='#'>Share</Link></li>
             <li className='nav-text'><Link to='/galleries' className='nav-link' href='#'>Galleries</Link></li>
-            <li className='nav-text'>
-              <Link to='/'><img className='home-icon-link' src={home} alt="Home icon"></img></Link>
-            </li>
           </ul>
         </nav>
       </IconContext.Provider>
