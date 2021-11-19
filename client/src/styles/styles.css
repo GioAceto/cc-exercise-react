@@ -836,6 +836,18 @@ footer {
   background-color: #363636;
 }
 
+@media screen and (max-width: 830px) {
+  footer {
+    height: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
 footer div {
   max-width: 100%;
   display: -webkit-box;
@@ -849,16 +861,32 @@ footer div {
 
 @media screen and (max-width: 830px) {
   footer div {
+    padding: 0;
+    width: 20rem;
+    height: 100%;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
 }
 
 footer div .footer-logo {
   margin: 1rem 1.8rem 0 2rem;
-  height: 4rem;
+  width: 118px;
+  height: 60px;
+}
+
+@media screen and (max-width: 830px) {
+  footer div .footer-logo {
+    margin-bottom: 1.5rem;
+  }
 }
 
 footer div .footer-logo:hover {
@@ -880,6 +908,18 @@ footer div .footer-links-container {
   list-style: none;
 }
 
+@media screen and (max-width: 830px) {
+  footer div .footer-links-container {
+    margin: 0 0 3rem 0;
+    padding: 0;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
 footer div .footer-links-container li {
   padding: 0 0.8rem;
   height: 1.5rem;
@@ -899,6 +939,12 @@ footer div .footer-links-container li .footer-link {
   padding: 20px 0px;
 }
 
+@media screen and (max-width: 830px) {
+  footer div .footer-links-container li .footer-link {
+    font-size: 1rem;
+  }
+}
+
 footer div .footer-links-container li .footer-link:hover {
   cursor: pointer;
 }
@@ -906,6 +952,12 @@ footer div .footer-links-container li .footer-link:hover {
 footer div .footer-links-container li .footer-link:hover::before, footer div .footer-links-container li .footer-link:focus::before, footer div .footer-links-container li .footer-link:active::before {
   bottom: 10px;
   opacity: 1;
+}
+
+@media screen and (max-width: 830px) {
+  footer div .footer-links-container li .footer-link:hover::before, footer div .footer-links-container li .footer-link:focus::before, footer div .footer-links-container li .footer-link:active::before {
+    display: none;
+  }
 }
 
 footer div .footer-links-container li .footer-link:before {
@@ -920,8 +972,10 @@ footer div .footer-links-container li .footer-link:before {
   opacity: 0;
 }
 
-footer div .footer-links-container li .footer-link .home-icon-link {
-  height: 1.2rem;
+@media screen and (max-width: 830px) {
+  footer div .footer-links-container li .footer-link:before {
+    display: none;
+  }
 }
 
 * {

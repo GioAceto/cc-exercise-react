@@ -3,6 +3,12 @@ footer {
   height: 12rem;
   background-color: $ltBlack;
 
+  @include tablet {
+    height: auto;
+    display: flex;
+    justify-content: center;
+  }
+
   div {
     max-width: 100%;
     display: flex;
@@ -10,12 +16,22 @@ footer {
     padding: 0.5rem calc((100vw - 1500px) / 2);
 
     @include tablet {
+      padding: 0;
+      width: 20rem;
+      height: 100%;
       flex-direction: column;
+      align-items: center;
+      justify-content: center;
     }
 
     .footer-logo {
       margin: 1rem 1.8rem 0 2rem;
-      height: 4rem;
+      width: 118px;
+      height: 60px;
+
+      @include tablet {
+        margin-bottom: 1.5rem;
+      }
 
       &:hover {
         cursor: pointer;
@@ -30,6 +46,13 @@ footer {
       align-items: center;
       list-style: none;
 
+      @include tablet {
+        margin: 0 0 3rem 0;
+        padding: 0;
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+
       li {
         padding: 0 0.8rem;
         height: 1.5rem;
@@ -43,6 +66,10 @@ footer {
           position: relative;
           padding: 20px 0px;
 
+          @include tablet {
+            font-size: 1rem;
+          }
+
           &:hover {
             cursor: pointer;
           }
@@ -52,6 +79,10 @@ footer {
           &:active::before {
             bottom: 10px;
             opacity: 1;
+
+            @include tablet {
+              display: none;
+            }
           }
 
           &:before {
@@ -63,10 +94,10 @@ footer {
             width: 100%;
             bottom: 5px;
             opacity: 0;
-          }
 
-          .home-icon-link {
-            height: 1.2rem;
+            @include tablet {
+              display: none;
+            }
           }
         }
       }
