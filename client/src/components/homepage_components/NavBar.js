@@ -14,9 +14,9 @@ const NavBar = () => {
 
   const changeBackground = () => {
     if (window.scrollY >= 120) {
-      setNavBar(true)
+      setNavBar(!sidebar)
     } else {
-      setNavBar(false)
+      setNavBar(sidebar)
     }
   };
 
@@ -44,7 +44,7 @@ const NavBar = () => {
         <nav className={sidebar ? 'nav-menu active' : 'nav-menu'}>
           <ul className='nav-menu-items' onClick={showSidebar}>
             <li className='navbar-toggle'>
-              <Link to='#' className='menu-bars close'>
+              <Link to='#' className='close'>
                 <AiIcons.AiOutlineClose />
               </Link>
             </li>

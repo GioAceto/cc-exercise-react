@@ -93,6 +93,12 @@ z-index: 3;
 
 .close {
   margin: 0.5rem 0 0 14rem;
+  position: relative;
+  right: 2rem;
+  bottom: 0.5rem;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
 }
 
 .navbar.active {
